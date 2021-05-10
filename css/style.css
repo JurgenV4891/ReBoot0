@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+hr {
+    margin: auto;
+}   
+
+.contenu {  
+    margin: auto;
+    padding: 20px;
+    margin-top: 2em;
+    max-width: 480px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.image:hover {
+    transition-duration: 1.5s;
+    will-change: transform;
+    transform: perspective(100px) rotateX(0deg) rotateY(360deg) scale3d(1.1, 1.1, 1.1);
+}
+
+.envr {
+    text-align: center;
+    margin: 15px;
+}
+
+.favorite_styled {
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 42%;
+    background-color: darkred;
+    color: #fff;
+    box-shadow: 2px 2px rgb(0, 0, 0, 0.5)
+}
+
+@media (max-width:726px) {
+
+    .container {
+        width: 80%;
+
+    }
+}  
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
